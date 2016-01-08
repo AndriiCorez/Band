@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CBABand.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextFieldDelegate>
+
+@property (nonatomic, strong) CBABand *bandObj;
+@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
+@property (nonatomic, weak) IBOutlet UITextField *nameTextField;
+
 
 
 @end

@@ -15,6 +15,7 @@
 		41DF2BE71C400E2A0033322E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DF2BE61C400E2A0033322E /* Images.xcassets */; };
 		41DF2BEA1C400E2A0033322E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41DF2BE81C400E2A0033322E /* LaunchScreen.xib */; };
 		41DF2BF61C400E2B0033322E /* BandsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DF2BF51C400E2B0033322E /* BandsTests.m */; };
+		41DF2C011C401B2D0033322E /* CBABand.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DF2C001C401B2D0033322E /* CBABand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		41DF2BEF1C400E2B0033322E /* BandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DF2BF41C400E2B0033322E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41DF2BF51C400E2B0033322E /* BandsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandsTests.m; sourceTree = "<group>"; };
+		41DF2BFF1C401AF10033322E /* CBABand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBABand.h; sourceTree = "<group>"; };
+		41DF2C001C401B2D0033322E /* CBABand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBABand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				41DF2BE81C400E2A0033322E /* LaunchScreen.xib */,
 				41DF2BDD1C400E2A0033322E /* Bands.xcdatamodeld */,
 				41DF2BD61C400E2A0033322E /* Supporting Files */,
+				41DF2BFF1C401AF10033322E /* CBABand.h */,
+				41DF2C001C401B2D0033322E /* CBABand.m */,
 			);
 			path = Bands;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41DF2BDC1C400E2A0033322E /* AppDelegate.m in Sources */,
+				41DF2C011C401B2D0033322E /* CBABand.m in Sources */,
 				41DF2BDF1C400E2A0033322E /* Bands.xcdatamodeld in Sources */,
 				41DF2BE21C400E2A0033322E /* ViewController.m in Sources */,
 				41DF2BD91C400E2A0033322E /* main.m in Sources */,
